@@ -1,0 +1,17 @@
+Program different sorting algorithms:
+Group 01:
+  Selection sort
+  Insertion sort
+  BinaryInsertion sort
+  Bubble sort
+  Shaker sort
+  Shell sort
+Group 02:
+  Heap sort
+  Merge sort
+  Quicksort
+  Using qsort (in C library)
+Group 03:
+  Radix sort
+  Counting sort
+  Flash sort

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DictionaryClass</class>
+ <widget class="QMainWindow" name="DictionaryClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dictionary</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(33, 41, 48);
+color: rgb(255, 255, 240);
+max-width: 600px;
+max-height: 400px;</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>20</width>
+    <height>20</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>600</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>VNI-Zap</family>
+     <pointsize>20</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="spacing">
+     <number>1</number>
+    </property>
+    <property name="leftMargin">
+     <number>20</number>
+    </property>
+    <property name="topMargin">
+     <number>20</number>
+    </property>
+    <property name="rightMargin">
+     <number>20</number>
+    </property>
+    <property name="bottomMargin">
+     <number>20</number>
+    </property>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>18</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>VNI-Mysti</family>
+          <pointsize>22</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+          <underline>true</underline>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>ArrowCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(139, 0, 0);
+color: rgb(230, 230, 250);</string>
+        </property>
+        <property name="text">
+         <string>ENGLISH DICTIONARY</string>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_AddWord">
+        <property name="maximumSize">
+         <size>
+          <width>602</width>
+          <height>402</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(168, 173, 180);
+color: rgb(28, 40, 51);</string>
+        </property>
+        <property name="text">
+         <string>Add a word</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_SearchWord">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(28, 40, 51);
+background-color: rgb(168, 173, 180);</string>
+        </property>
+        <property name="text">
+         <string>Search a word</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_editWord">
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(28, 40, 51);
+background-color: rgb(168, 173, 180);</string>
+        </property>
+        <property name="text">
+         <string>Edit a word</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_DeleteWord">
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(28, 40, 51);
+background-color: rgb(168, 173, 180);</string>
+        </property>
+        <property name="text">
+         <string>Delete a word</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_printFile">
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(28, 40, 51);
+background-color: rgb(168, 173, 180);</string>
+        </property>
+        <property name="text">
+         <string>Print dictionary to file</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_Exit">
+        <property name="minimumSize">
+         <size>
+          <width>558</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>20</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(28, 40, 51);
+background-color: rgb(168, 173, 180);</string>
+        </property>
+        <property name="text">
+         <string>Exit</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAdd">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuAdd"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Dictionary.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionExit</sender>
+   <signal>triggered()</signal>
+   <receiver>DictionaryClass</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>201</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Exit</sender>
+   <signal>clicked()</signal>
+   <receiver>DictionaryClass</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>370</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>201</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bt_AddWord</sender>
+   <signal>clicked()</signal>
+   <receiver>DictionaryClass</receiver>
+   <slot>AddWord()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bt_printFile</sender>
+   <signal>clicked()</signal>
+   <receiver>DictionaryClass</receiver>
+   <slot>PrintFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>307</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>209</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bt_SearchWord</sender>
+   <signal>clicked()</signal>
+   <receiver>DictionaryClass</receiver>
+   <slot>SearchWord()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>118</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>209</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bt_editWord</sender>
+   <signal>clicked()</signal>
+   <receiver>DictionaryClass</receiver>
+   <slot>EditWord()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>209</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bt_DeleteWord</sender>
+   <signal>clicked()</signal>
+   <receiver>DictionaryClass</receiver>
+   <slot>DeleteWord()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>209</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>AddWord()</slot>
+  <slot>PrintFile()</slot>
+  <slot>SearchWord()</slot>
+  <slot>EditWord()</slot>
+  <slot>DeleteWord()</slot>
+ </slots>
+</ui>

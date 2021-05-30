@@ -1,0 +1,52 @@
+﻿Build started 11/28/2018 9:01:22 PM.
+     1>Project "E:\KHTN\Năm Hai\CTDL&GT\TH\Tuan09\6+\1712152\Dictionary\Dictionary\Dictionary.vcxproj" on node 2 (Build target(s)).
+     1>QtFinalize:
+         Moc'ing Dictionary.h...
+         Moc'ing AddWord.h...
+         Moc'ing EditWord.h...
+         Moc'ing DeleteWord.h...
+         Moc'ing SearchWord.h...
+         Rcc'ing Dictionary.qrc...
+         Uic'ing AddWord.ui...
+         RCC: Warning: No resources in 'E:\KHTN\N─âm Hai\CTDL&GT\TH\Tuan09\6+\1712152\Dictionary\Dictionary\Dictionary.qrc'.
+         Uic'ing DeleteWord.ui...
+         Uic'ing Dictionary.ui...
+         Uic'ing EditWord.ui...
+         Uic'ing SearchWord.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtCore /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtGui /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtANGLE /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /MP /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt AddWord.cpp DeleteWord.cpp Dictionary.cpp EditWord.cpp HashNode.cpp HashTable.cpp main.cpp SearchWord.cpp .\GeneratedFiles\Release\moc_Dictionary.cpp .\GeneratedFiles\Release\moc_AddWord.cpp .\GeneratedFiles\Release\moc_EditWord.cpp .\GeneratedFiles\Release\moc_DeleteWord.cpp .\GeneratedFiles\Release\moc_SearchWord.cpp .\GeneratedFiles\qrc_Dictionary.cpp
+         AddWord.cpp
+         DeleteWord.cpp
+         Dictionary.cpp
+         EditWord.cpp
+         HashNode.cpp
+         HashTable.cpp
+         main.cpp
+         SearchWord.cpp
+         moc_Dictionary.cpp
+         moc_AddWord.cpp
+         moc_EditWord.cpp
+         moc_DeleteWord.cpp
+         moc_SearchWord.cpp
+         qrc_Dictionary.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\KHTN\Năm Hai\CTDL&GT\TH\Tuan09\6+\1712152\Dictionary\x64\Release\\Dictionary.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\KHTN\Năm Hai\CTDL&GT\TH\Tuan09\6+\1712152\Dictionary\x64\Release\Dictionary.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\KHTN\Năm Hai\CTDL&GT\TH\Tuan09\6+\1712152\Dictionary\x64\Release\Dictionary.lib" /MACHINE:X64 x64\Release\AddWord.obj
+         x64\Release\DeleteWord.obj
+         x64\Release\Dictionary.obj
+         x64\Release\EditWord.obj
+         x64\Release\HashNode.obj
+         x64\Release\HashTable.obj
+         x64\Release\main.obj
+         x64\Release\SearchWord.obj
+         x64\Release\moc_Dictionary.obj
+         x64\Release\moc_AddWord.obj
+         x64\Release\moc_EditWord.obj
+         x64\Release\moc_DeleteWord.obj
+         x64\Release\moc_SearchWord.obj
+         x64\Release\qrc_Dictionary.obj
+         Dictionary.vcxproj -> E:\KHTN\Năm Hai\CTDL&GT\TH\Tuan09\6+\1712152\Dictionary\x64\Release\Dictionary.exe
+     1>Done Building Project "E:\KHTN\Năm Hai\CTDL&GT\TH\Tuan09\6+\1712152\Dictionary\Dictionary\Dictionary.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.38
